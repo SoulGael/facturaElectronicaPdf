@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+   <infoTributaria>
+      <ambiente>2</ambiente>
+      <tipoEmision>2</tipoEmision>
+      <razonSocial>SOLUCIONES AVANZADAS INFORMATICAS Y TELECOMUNICACIONES SAITEL</razonSocial>
+      <nombreComercial>SAITEL</nombreComercial>
+      <ruc>1091728857001</ruc>
+      <claveAcceso>0912201501109172885700120000000000000000165660020</claveAcceso>
+      <codDoc>01</codDoc>
+      <estab>001</estab>
+      <ptoEmi>003</ptoEmi>
+      <secuencial>000062617</secuencial>
+      <dirMatriz>JOSE JOAQUIN DE OLMEDO 4-63 Y JUAN GRIJALVA</dirMatriz>
+   </infoTributaria>
+   <infoFactura>
+      <fechaEmision>09/12/2015</fechaEmision>
+      <dirEstablecimiento>OLMEDO 463 Y GRIJALVA</dirEstablecimiento>
+      <obligadoContabilidad>SI</obligadoContabilidad>
+      <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+      <razonSocialComprador>TAIS CONEJO MARINA ALEXANDRA</razonSocialComprador>
+      <identificacionComprador>1003291034</identificacionComprador>
+      <totalSinImpuestos>15.98</totalSinImpuestos>
+      <totalDescuento>0.00</totalDescuento>
+      <totalConImpuestos>
+         <totalImpuesto>
+            <codigo>2</codigo>
+            <codigoPorcentaje>2</codigoPorcentaje>
+            <baseImponible>15.98</baseImponible>
+            <valor>1.92</valor>
+         </totalImpuesto>
+      </totalConImpuestos>
+      <propina>0.00</propina>
+      <importeTotal>17.90</importeTotal>
+      <moneda>DOLAR</moneda>
+   </infoFactura>
+   <detalles>
+      <detalle>
+         <codigoPrincipal>1</codigoPrincipal>
+         <descripcion>SERVICIO DE INTERNET PLAN RESIDENCIAL 3.0 Mbps PERIODO FACTURADO 2015 / noviembre ~</descripcion>
+         <cantidad>30.00</cantidad>
+         <precioUnitario>0.53</precioUnitario>
+         <descuento>0.00</descuento>
+         <precioTotalSinImpuesto>15.98</precioTotalSinImpuesto>
+         <impuestos>
+            <impuesto>
+               <codigo>2</codigo>
+               <codigoPorcentaje>2</codigoPorcentaje>
+               <tarifa>12</tarifa>
+               <baseImponible>15.98</baseImponible>
+               <valor>1.92</valor>
+            </impuesto>
+         </impuestos>
+      </detalle>
+   </detalles>
+   <infoAdicional>
+      <campoAdicional nombre="EMAIL">info@saitel.ec</campoAdicional>
+      <campoAdicional nombre="DIRECCION">CALLE ROCA Y MORALES</campoAdicional>
+      <campoAdicional nombre="ARCOTEL">PARA LA ATENCION DE RECLAMOS NO RESUELTOS POR LA OPERADORA, LLAME GRATIS A LA ARCOTEL 1800-567-567</campoAdicional>
+   </infoAdicional>
+<ds:Signature Id="Signature786041" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo587388">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID232098" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature786041-SignedProperties956443">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>IgghexAUfjMbCQOA6BoIWyL/UtA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1233383">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>XWA9sQSCE2e3+Gr0gM9zZFE+/NM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-26064" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>dmnYO03KLA+VvQUewCgnauUnY9M=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue314961">
+gcigA+vL+nuX+OUd5PMF/R/xLJw69I4Bkk5RhV0ESofwjuetbKrhlGkX/08BvM7ZTVhsHMWSE6HA
+GYX/aJUb3N9ItgrDLvez1pLgHGhgSmKqN6z+vJSNY2GJv1PHcJqv7G199z3aXJb9+2PotptcS1VD
+cV+TB8tIiExbKAJ1nDTvIrlf6cF53ne8EWt+ozlLVFZOAfcfJgfZcZ1P12yr3tFNsNnbK/sww6qB
+zJHHslwQx2QZIMs2btiYUsQLizxSYKVTGRqWNqbO5i0KsT1WSZmFbBZ0goo5Qx/OPfzAK3Wzp2+3
+6E5JKtsPEOKWMhQHkcKrCEj1pENjEm0MbgLuOg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1233383">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKCDCCB/CgAwIBAgIETkUjtzANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE1MDkwMTIwMTkzOVoXDTE2MDkwMTIwNDkz
+OVowgbMxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE3MBEGA1UEBRMKMDAwMDA3NzYwNjAiBgNVBAMTG0xFTklOIEdFT1ZBTk5Z
+IExPUEVaIFJPU0VSTzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK6Nf4GE5soMR+Gs
+jdJnMGn5UeUiVcx+0bczpbjdLL28qNfgBAB0vVwqXiQCUA0+3QZ5N7CsgJbRo1anCOjAmkq5I60P
+HiRvQGIJfYszJ5YwGZHLp56phX4xQ5IO5wPNE18CJgh1fGKYh0YJ0Y1O5bxdBAjehvBHSUZ2IYl6
+zzq4Luszm4hsqvV14tv5RMj04NsLBRvFWJtudQ1lDwwtVPhyIApv5DRIhrEU2/EwE5OHpG87ewGD
+zyeC+gRynIbn8HGgui8EV9gN8/u+LTcMZ4eZNzKTLqU2cVQIl9A49xYqypkTfnecEXn/N2KtdErY
+W2PLSEOw4mnKRNMN1sKmo70CAwEAAaOCBTIwggUuMAsGA1UdDwQEAwIHgDBnBgNVHSAEYDBeMFwG
+CysGAQQBgqg7AgIBME0wSwYIKwYBBQUHAgEWP2h0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xpdGlj
+YS1jZXJ0aWZpY2Fkby9wZXJzb25hLWp1cmlkaWNhLnBkZjCBkQYIKwYBBQUHAQEEgYQwgYEwPgYI
+KwYBBQUHMAGGMmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9v
+Y3NwMD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIv
+c3RhdHVzL29jc3AwTQYKKwYBBAGCqDsDCgQ/Ez1TT0xVQ0lPTkVTIEFWQU5aQURBUyBJTkZPUk1B
+VElDQVMgWSBURUxFQ09NVU5JQ0FDSU9ORVMgU0FJVEVMMB0GCisGAQQBgqg7AwsEDxMNMTA5MTcy
+ODg1NzAwMTAaBgorBgEEAYKoOwMBBAwTCjEwMDI3NzM0NTMwHgYKKwYBBAGCqDsDAgQQEw5MRU5J
+TiBHRU9WQU5OWTAVBgorBgEEAYKoOwMDBAcTBUxPUEVaMBYGCisGAQQBgqg7AwQECBMGUk9TRVJP
+MBsGCisGAQQBgqg7AwUEDRMLU1VCIEdFUkVOVEUwJwYKKwYBBAGCqDsDBwQZExdPTE1FRE8gNDYz
+IFkgSiBHUklKQUxWQTAZBgorBgEEAYKoOwMIBAsTCTA2MjYxMDMzMDAWBgorBgEEAYKoOwMJBAgT
+BkliYXJyYTAXBgorBgEEAYKoOwMMBAkTB0VDVUFET1IwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FS
+RS1BUkNISVZPMB8GA1UdEQQYMBaBFHN1YmdlcmVudGVAc2FpdGVsLmVjMIIB3wYDVR0fBIIB1jCC
+AdIwggHOoIIByqCCAcaGgdVsZGFwOi8vYmNlcWxkYXBzdWJwMS5iY2UuZWMvY249Q1JMMjU2LGNu
+PUFDJTIwQkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixsPVFVSVRPLG91PUVOVElEQUQl
+MjBERSUyMENFUlRJRklDQUNJT04lMjBERSUyMElORk9STUFDSU9OLUVDSUJDRSxvPUJBTkNPJTIw
+Q0VOVFJBTCUyMERFTCUyMEVDVUFET1IsYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jh
+c2WGNGh0dHA6Ly93d3cuZWNpLmJjZS5lYy9DUkwvZWNpX2JjZV9lY19jcmxmaWxlY29tYi5jcmyk
+gbUwgbIxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzElMCMGA1UEAxMcQUMgQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjEPMA0G
+A1UEAxMGQ1JMMjU2MCsGA1UdEAQkMCKADzIwMTUwOTAxMjAxOTM5WoEPMjAxNjA5MDEyMDQ5Mzla
+MB8GA1UdIwQYMBaAFBj58PvmMhyZZjkqyouyaX1JJ7/OMB0GA1UdDgQWBBRZw/2yQuXn277t5Fi1
+yAI8Gl8o0zAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQMMAobBFY4LjEDAgSwMA0GCSqGSIb3DQEB
+CwUAA4ICAQBUZ8/hSYk2Xl1pdUnD3p3eeu/omiGNXIcTuCEJeBgX7jAuGKo4ztNPeNKX9MipUwuX
+8MYECd++i1EQRT5KGsacyHZKLO+sVUfcXgoJYtB/IVdk3+sw7GT6D+k51+NEV7LM07i4QJN+1NYf
+6rnbnwb1tZTQ820UC6lrGt3nxU1qqG1ZynHX4bHynK7q53m0WBSz4VwtiDcRgN2Van/MSe85l1TS
+rN4BQA+DZjN7GnInqBo/qSH9OVsCYF2SWQPzLDRT5j8GVU8pGVVAvTmH2A7+zKoKffFzN88lzzWl
+3SGZf3tv6BHUUF+/9aNRj6IrpudGrJb+qGLAOBR2C/GXmQpsh5vaEHc8mBp7QCflFVZJe5Mu8MTi
+8LgRad16UVMA10LkkbIPkh4NWS3tXlH2+DeICzrU8N36uy+zt4UqHpya7Sx5S1KanGJQOZBByKUD
+4vWWnNHKxLSzEKduj84xrOPCpLLtRKSbjMxLRqMj58ZeskjqbDzGcPHvIOF0a0sJ9twcZl5jEPa+
+i3NYSiUpZmLtmYkK4p3jQiSqI+jxnsH1q1VAbEGV7iPfuin1r3822wUnsOyVd4cIQPZ4/1g8bPYS
+WyMtPzinHeeAo2SB9M6PnSyMZk4T5YOwppAw9mcV86UZrP/fsEvXfDIJuQSjIQTjlbrJHWkY2KS5
+BHsn4RTXgg==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ro1/gYTmygxH4ayN0mcwaflR5SJVzH7RtzOluN0svbyo1+AEAHS9XCpeJAJQDT7dBnk3sKyAltGj
+VqcI6MCaSrkjrQ8eJG9AYgl9izMnljAZkcunnqmFfjFDkg7nA80TXwImCHV8YpiHRgnRjU7lvF0E
+CN6G8EdJRnYhiXrPOrgu6zObiGyq9XXi2/lEyPTg2wsFG8VYm251DWUPDC1U+HIgCm/kNEiGsRTb
+8TATk4ekbzt7AYPPJ4L6BHKchufwcaC6LwRX2A3z+74tNwxnh5k3MpMupTZxVAiX0Dj3FirKmRN+
+d5wRef83Yq10SthbY8tIQ7DiacpE0w3WwqajvQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature786041-Object505125"><etsi:QualifyingProperties Target="#Signature786041"><etsi:SignedProperties Id="Signature786041-SignedProperties956443"><etsi:SignedSignatureProperties><etsi:SigningTime>2015-12-09T12:07:40-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>ljK4u6dJ6XF5Uko5KqkzVK9wZ04=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1313153975</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-26064"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>
